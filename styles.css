@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(244, 251, 253);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(38, 134, 164);
+    margin-bottom: 2rem;
+}
+
+.lorem-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+
+.lorem-form label {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.container input {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #222;
+    padding: 0 2px;
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px rgba(0 0 0 / .1);
+
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    height: 35px;
+    background-color: rgb(215, 161, 35);
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: rgb(192, 144, 32);
+}
+
+.result {
+    color: rgb(96, 96, 96);
+    font-size: .9rem;
+    line-height: 1.4;
+    max-width: 600px;
+    padding: 0 1.5rem;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+
+}
+
+/* media queries */
+@media screen and (min-width:768px) {
+    .section-center {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
